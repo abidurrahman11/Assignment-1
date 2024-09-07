@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Simple App"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="center" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/sample" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A sample image is shown above.\nClick the button below to see the Toast"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:background="#009688"
+        android:textColor="#ffffff"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:layout_marginHorizontal="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click Button"
+        android:layout_gravity="center"
+        android:id="@+id/btn"
+        android:background="@drawable/button_bg"
+        android:padding="10dp"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>
